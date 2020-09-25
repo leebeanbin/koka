@@ -1,0 +1,48 @@
+.nav{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #f9f9fa;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    box-sizing: border-box;
+}
+.nav__lists{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__link{
+    position: relative;
+    color: #2e363e;
+}
+/* border-box */
+/* 원래 css는 padding 값과 크기의 값이 있는 상태를 유지하려고 하면 
+그 크기를 padding의 크기만큼 늘려버리는데 border-box는 그러한 현상을
+막아주고 사이즈가 커지는 것을 막아준다. */
+.nav__notification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: tomato;
+    color: white;
+    font-weight: 600;
+    width:25px;
+    height: 25px;
+
+    position: absolute;
+    left: 19px;
+    bottom: 15px;
+}
+
+.nav__notice{
+    display: flex;
+    position: absolute;
+    background-color: tomato;
+    border-radius: 10px;
+    width: 5px;
+    height: 5px;
+    left: 33px;
+}
+/* position: absolute를 쓰기 위한 조건은 container가
+되는 태그에 position:relative를 해줘야 한다. */

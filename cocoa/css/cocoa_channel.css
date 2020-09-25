@@ -1,0 +1,32 @@
+.cocoa_channel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    padding: 10px 3px;
+    margin: 0px 20px; 
+    border-top: 1px solid rgba(185, 185, 185, 0.527);
+}
+
+.cocoa_channel_talk{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 3px;
+    margin: 0px 20px; 
+}
+.cocoa_channel_talk_side{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.cocoa_channel_talk_side span{
+    margin-right: 5px; 
+}
+
+.cocoa_channel_talk_side > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 45%; 
+    margin-right: 13px; 
+}

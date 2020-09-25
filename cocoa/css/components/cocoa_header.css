@@ -1,0 +1,15 @@
+.cocoa_header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.cocoa-header_column span{
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.cocoa-header_column i{
+    margin-left: 18px;
+}

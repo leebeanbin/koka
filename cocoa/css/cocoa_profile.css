@@ -1,0 +1,15 @@
+.cocoa_profile{
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+}
+.cocoa_profile img{
+    width: 70px;
+    height: 70px;
+    border-radius: 45%; 
+    margin-right: 13px; 
+}
+.cocoa_profile span{
+    font-size: 20px;
+    font-weight: 600;
+}

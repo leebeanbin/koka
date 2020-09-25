@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Welcome to Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header_title">Welcome to JUBY</h1>
+        <span class="welcome-header_text">If you have a JUBY Account, Log in with your email or phone number.</span>
+    </header>
+    <form id="login-form">
+        <input type="text" placeholder="Email or phone number" />
+        <input type="text" placeholder="Password">
+        <input type="submit" value="Log In"/>
+        <input type="submit" value="Sign up"/>
+    </form>
+    <a class="find_Account" href="#">Find JUBY Account or Password</a>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!-- 아이콘을 만드는 데는 두 가지 방법이 있는데, 첫번째는 직접 만드는것이고
+두번째는 직접 이미지를 만들고 svg파일로 추출할 수 있다. svg는 픽셀이 없는 
+이미지 파일 형식이다.(원하는 만큼 늘릴 수도 있다.) svg형식으로 이미지를 가져오려면 
+추천 사이트 : heroIcon, FontAwesome(FontAwesome은 kit code를 입력해야 하는데 이건 
+니코의 코드를 이용하면 된다. / https://kit.fontawesome.com/6478f529f2.js)이 있다.-->
+
+<!-- script는 항상 마지막에 닫아야 한다. -->
