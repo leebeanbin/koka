@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Ubuntu&display=swap');
 @import 'reset.css';
 @import 'variables.css';
+@import "cocoa_chatting_room.css";
 
     /* Components */
 @import "components/status_bar.css";
