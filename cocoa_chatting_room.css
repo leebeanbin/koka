@@ -1,0 +1,37 @@
+.chatting_room{
+    padding: 5px 20px;
+}
+
+.chatting_profile{
+    display: flex;
+}
+
+.chat_Info_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.chatting_profile__img{
+    width: 70px;
+    height: 70px;
+    border-radius: 45%; 
+    margin-right: 13px; 
+}
+.chatting_room_Info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.chatting__respond{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: tomato;
+    color: white;
+}
+.chatting_room_other_info{
+    color:rgba(185, 185, 185, 0.9);
+}
