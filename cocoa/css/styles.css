@@ -1,23 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Ubuntu&display=swap');
-@import 'reset.css';
-@import 'variables.css';
-@import "cocoa_chatting_room.css";
-
-    /* Components */
-@import "components/status_bar.css";
-@import "components/nav_bar.css";
-@import "components/cocoa_header.css";
-
-    /* Screen */
-@import "screens/login_form.css";
-@import 'screens/friends.css';
-@import 'cocoa_channel.css';
-@import 'cocoa_profile.css';
-@import 'cocoa_header.css';
-
 body{
-    color: #2e363e;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-    background-color: whitesmoke;
- }
+    height: 100vh;
+    background-color: #FAE100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-comment{
+    font-size: 14vh;
+}
