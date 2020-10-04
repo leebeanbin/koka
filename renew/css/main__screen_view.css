@@ -1,0 +1,10 @@
+body{
+    height: 100vh;
+    background-color: #FAE100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-comment{
+    font-size: 14vh;
+}

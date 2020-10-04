@@ -1,0 +1,29 @@
+@import "commonly__src/status_bar_style.css";
+body{
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+.judasa_title_sub_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.judasa_sub_title{
+    width: 60%;
+}
+
+.judasa_input_id_password{
+    display: flex;
+    flex-direction: column;
+    margin:  5px 25px;
+}
+
+.judasa_input_id_password input{
+    width: 100%;
+    border: none;
+    padding:20px 3px; 
+    font-size: 18px;
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,14 @@
+.status_bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.status_bar__column{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.status_bar__column div ,i{
+    margin-right: 10px;
+}
