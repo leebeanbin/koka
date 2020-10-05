@@ -1,29 +1,95 @@
 @import "commonly__src/status_bar_style.css";
+@import "variables.css";
+@import "components/login.css";
 body{
     height: 100vh;
     font-family: 'Nunito', sans-serif;
 }
 
-.judasa_title_sub_title{
+.judasa_chatting_head_title{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px;
+}
+.judasa_title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.judasa_power_link i{
+    padding-right: 5px;
+}
+.judasa_chatting_alram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 0px 15px;
+    height: 35px;
+}
+.judasa_alram_messeges{
+    margin: 0px 5px;
+    font-size: 18px;
+}
+
+.judasa_chatting_profile{
+    display: flex;
+    align-items: center;
+    margin: 15px 15px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+.judasa_img{
+    width: 65px;
+    height: 65px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.judasa_name{
+    font-weight: 600;
+}
+
+
+.judasa_chatting_channel_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 19px;
+    font-size: 18px;
+}
+
+.side{
+    display: flex;
+    align-items: center;
+}
+.sever_profile{
+    justify-content: space-between;
+    border: none;
+}
+.img2{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 3px;
+}
+.channels_amount{
+    margin-right: 5px;
+}
+
+.judasa_other_screen{
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+}
+.judasa_other_screen_links{
+    height: 70px;
+    border-top: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
     justify-content: center;
     align-items: center;
 }
-.judasa_sub_title{
-    width: 60%;
-}
-
-.judasa_input_id_password{
-    display: flex;
-    flex-direction: column;
-    margin:  5px 25px;
-}
-
-.judasa_input_id_password input{
-    width: 100%;
-    border: none;
-    padding:20px 3px; 
-    font-size: 18px;
-    border-bottom: 1px solid black;
+.judasa_other_screen_links a{
+    color: black;
 }

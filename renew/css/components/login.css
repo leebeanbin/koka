@@ -1,0 +1,40 @@
+.judasa_title_sub_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.judasa_sub_title{
+    width: 60%;
+}
+
+.judasa_input_id_password{
+    display: flex;
+    flex-direction: column;
+    margin:  5px 25px;
+}
+
+input:focus{
+    outline: none;
+}
+.judasa_input_id_password input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 20px 0px;
+    font-size: 18px;
+}
+.judasa_input_submit{
+    margin: 30px 0px;
+}
+.judasa_input_submit input{
+    border: none;
+    border-radius: 6px;
+    margin:10px 0px;
+    background-color: var(--yellow)
+}
+.jadasa_account_finding{
+    text-align: center;
+    color:black;
+    text-decoration: none;
+}
