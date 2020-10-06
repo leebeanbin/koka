@@ -1,0 +1,43 @@
+.judasa_chatting_profile{
+    display: flex;
+    align-items: center;
+    margin: 15px 15px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+.judasa_img{
+    width: 65px;
+    height: 65px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.judasa_name{
+    font-weight: 600;
+}
+
+
+.judasa_chatting_channel_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 19px;
+    font-size: 18px;
+}
+
+.side{
+    display: flex;
+    align-items: center;
+}
+.sever_profile{
+    justify-content: space-between;
+    border: none;
+}
+.img2{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 3px;
+}
+.channels_amount{
+    margin-right: 5px;
+}

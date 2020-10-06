@@ -1,0 +1,51 @@
+.judasa_chatting_alram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 0px 15px;
+    height: 35px;
+}
+.judasa_alram_messeges{
+    margin: 0px 5px;
+    font-size: 18px;
+}
+
+.judasa_other_screen{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 25px 50px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+.judasa_other_screen_links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.judasa_other_link{
+    position: relative;
+    color: black;
+}
+.new_messeges_alram{
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+.minimal{
+    width: 15px;
+    height: 15px;
+    left: 25px;
+    bottom: 23px;
+}

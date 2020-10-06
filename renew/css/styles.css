@@ -1,9 +1,13 @@
 @import "commonly__src/status_bar_style.css";
 @import "variables.css";
 @import "components/login.css";
+@import "commonly__src/profile_style.css";
+@import "commonly__src/under_status_bar.css";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
 body{
     height: 100vh;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .judasa_chatting_head_title{
@@ -13,83 +17,36 @@ body{
     padding: 30px 15px;
 }
 .judasa_title{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
 }
 .judasa_power_link i{
-    padding-right: 5px;
+    padding-right: 10px;
 }
-.judasa_chatting_alram{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: whitesmoke;
-    margin: 0px 15px;
-    height: 35px;
-}
-.judasa_alram_messeges{
-    margin: 0px 5px;
-    font-size: 18px;
-}
+
 
 .judasa_chatting_profile{
-    display: flex;
-    align-items: center;
-    margin: 15px 15px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid black;
-}
-.judasa_img{
-    width: 65px;
-    height: 65px;
-    border-radius: 15px;
-    margin-right: 20px;
-}
-.judasa_name{
-    font-weight: 600;
-}
-
-
-.judasa_chatting_channel_list{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 19px;
-    font-size: 18px;
-}
-
-.side{
-    display: flex;
-    align-items: center;
-}
-.sever_profile{
-    justify-content: space-between;
     border: none;
 }
-.img2{
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
-    padding-left: 3px;
-}
-.channels_amount{
-    margin-right: 5px;
-}
-
-.judasa_other_screen{
-    position: absolute;
+.right_side_on{
     width: 100%;
-    bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.judasa_other_screen_links{
-    height: 70px;
-    border-top: 1px solid black;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+.right_side_{
+    display: flex;
+    padding:8px;
+    justify-content: space-between;
+}
+.alram{
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
     text-align: center;
+    border-radius: 10px;
+    color: white;
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-.judasa_other_screen_links a{
-    color: black;
 }
